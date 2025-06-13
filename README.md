@@ -20,8 +20,8 @@ Under a **stylish, responsive UI**, this app lets users explore market data conf
 ## 💻 Project Structure
 Trading_guide_application/
 │
--├── Home.py # 🚀 Streamlit entry point
--├── pages/
+- Home.py # 🚀 Streamlit entry point
+- pages/
 -│ ├── CAPM_Beta.py # 📊 Calculates Beta using CAPM
 -│ ├── CAPM_Return.py # 💰 Computes expected return (CAPM)
 -│ ├── STOCK_Analysis.py # 📈 Technical indicators (RSI, MACD, SMA)
