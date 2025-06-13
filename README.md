@@ -15,25 +15,6 @@ The **Trading Guide App** is a feature-rich **Streamlit** application designed f
 
 Under a **stylish, responsive UI**, this app lets users explore market data confidently without jumping between tools.
 
----
-
-## 💻 Project Structure
-Trading_guide_application/
-
-- Home.py # 🚀 Streamlit entry point
-- pages/
-- CAPM_Beta.py # 📊 Calculates Beta using CAPM
-  - CAPM_Return.py # 💰 Computes expected return (CAPM)
-- STOCK_Analysis.py # 📈 Technical indicators (RSI, MACD, SMA)
-  -STOCK_Prediction.py # 🔮 Forecasting (ARIMA / LSTM)
-  -
-   -pages/utils/
-   -plotly_figure.py # 📉 Chart utilities using Plotly
-  - model_train.py # 🧠 Data preprocessing & model training
-  
-- README.md # 📘 Project documentation
-
----
 
 ## 📌 Features
 
