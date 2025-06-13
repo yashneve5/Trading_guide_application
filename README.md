@@ -18,19 +18,14 @@ Under a **stylish, responsive UI**, this app lets users explore market data conf
 ---
 
 ## 💻 Project Structure
-Trading_guide_application/
-│
-├── Home.py # Main Streamlit entry point
-│
-├── pages/
-│ ├── CAPM_Beta.py # Calculates Beta using CAPM model
-│ ├── CAPM_Return.py # Computes expected return using CAPM
-│ ├── STOCK_Analysis.py # Technical indicators & stock charts
-│ └── STOCK_Prediction.py # Time series forecasting (ARIMA/LSTM)
-│
-├── pages/utils/
-│ ├── plotly_figure.py # Plotting and chart utilities using Plotly
-│ └── model_train.py # Model training and data processing
-│
-└── README.md # Documentation
-
+Trading_guide_application:
+  Home.py: "Main Streamlit entry point"
+  pages:
+    CAPM_Beta.py: "Calculates Beta using CAPM model"
+    CAPM_Return.py: "Computes expected return using CAPM"
+    STOCK_Analysis.py: "Technical indicators & stock charts"
+    STOCK_Prediction.py: "Time series forecasting (ARIMA/LSTM)"
+    utils:
+      plotly_figure.py: "Plotting and chart utilities using Plotly"
+      model_train.py: "Model training and data processing"
+  README.md: "Documentation"
