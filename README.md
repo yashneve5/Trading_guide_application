@@ -29,3 +29,38 @@ Trading_guide_application:
       plotly_figure.py: "Plotting and chart utilities using Plotly"
       model_train.py: "Model training and data processing"
   README.md: "Documentation"
+
+---
+
+## 📌 Features
+
+### 📈 CAPM Analysis
+- **Beta Calculator** using regression with S&P 500.
+- **Expected Return Calculator** using:
+  \[
+  E(R_i) = R_f + \beta (E(R_m) - R_f)
+  \]
+
+### 🧮 Stock Analytics
+- Candlestick chart
+- Moving Averages (SMA)
+- Relative Strength Index (RSI)
+- MACD with histogram and signal line
+- Company info and key financials
+
+### 🔮 Stock Price Prediction
+- Uses historical data and models like ARIMA or LSTM.
+- 30-day prediction with:
+  - Forecast table
+  - Line chart
+  - RMSE evaluation
+
+---
+
+## ⚙️ How to Run
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/yourusername/Trading_guide_application.git
+cd Trading_guide_application
