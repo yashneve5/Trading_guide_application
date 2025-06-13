@@ -1,0 +1,1 @@
+# Trading_guide_application
